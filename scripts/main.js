@@ -1,3 +1,4 @@
+
 jQuery(function($){
 
 	/********************************************/
@@ -212,6 +213,7 @@ jQuery(function($){
 				$('.input-error-text.discount').text("Discount Expired");
 				$('.input-error-text.discount').addClass('show');
 			}
+			checkSubmit();
 		});
 	});
 
